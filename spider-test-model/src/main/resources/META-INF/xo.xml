@@ -1,0 +1,14 @@
+<v1:xo version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://buschmais.com/xo/schema/v1.0 "
+       xmlns:v1="http://buschmais.com/xo/schema/v1.0">
+    <xo-unit name="products">
+        <url>file:/Users/simon/Documents/FileNeo4J</url>
+        <provider>com.buschmais.xo.neo4j.api.Neo4jXOProvider</provider>
+        <types>
+            <type>entity.node.Product</type>
+            <type>entity.node.Employee</type>
+            <type>entity.node.Client</type>
+            <type>entity.node.Person</type>
+        </types>
+    </xo-unit>
+</v1:xo>
